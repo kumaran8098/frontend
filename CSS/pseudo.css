@@ -1,0 +1,8 @@
+p{color: chartreuse;
+    font: sixe 20px;
+
+}
+p::first-line{color:red}
+P::before{content:"@"}
+p::after{content: "**";}
+

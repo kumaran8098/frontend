@@ -1,0 +1,17 @@
+
+.gsk{
+    display: grid;
+    grid-template-columns:repeat(3,30%);
+    justify-content: space-between;
+
+    
+}
+.gdk{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100px;
+    padding: 8px;
+}
+.gdk{
+    width: 100%;
+}

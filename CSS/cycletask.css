@@ -1,0 +1,242 @@
+.parent {
+    width: 100%;
+    background-color: rgb(222, 255, 244);
+}
+.child1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: rgb(71, 71, 71)
+
+}
+.child1 img{
+    width: 12%;
+    padding: 15px;
+}
+.child1 a{
+    margin-left: 20px;
+}
+.child1 a i{
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(160, 160, 160);
+}
+.child2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 60% 15%;
+    justify-content: center;
+    margin-top: 24px;
+}
+.nav img{
+    margin-top: 15px;
+    margin-left: 90px;
+}
+.parent .nav ul li {
+    display: inline;
+} 
+.nav ul li{
+    margin-left: 35px;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+}
+.nav select{
+    border: none;
+    font-size: 15px;
+    background-color: rgb(222, 255, 244);
+} 
+.nav i{
+    margin-top: 17px; 
+    margin-left: 20px;
+    font-size: 18px;
+}
+.nav :hover{
+    color:rgb(255, 0, 162);
+}
+.child3{
+    width: 95%;
+    padding: 10px 10px 190px 10px;
+    display: grid;
+    grid-template-columns: 40% 55%;
+    justify-content: center;
+}
+.text{
+    margin-top: 50px;
+}
+.child3 .text h1{
+    font-size: 60px;
+}
+.child3 .text p{
+    color: gray;
+}
+.child3 .text img{
+    margin-top: 60px;
+}
+.child3 .text button{
+    padding: 15px 55px 15px 55px;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 76);
+    border: none;
+    margin-top: 50px;
+}
+.text a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.parent1{
+    width: 100%;
+}
+.parent1 h1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+}
+.parent2{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    justify-content: center;
+    
+     
+}
+.sofa{
+    width: 550px;
+    height:350px;
+    display: grid;
+    grid-template-columns: 33% 55%;
+       background-color: rgb(229, 255, 246);
+       padding: 20px;
+       
+}
+.sofa h4{
+    margin-top: 200px;
+    color: rgb(222, 255, 244);
+    font-weight: bold;
+}
+.sofa a{
+    text-decoration: none;
+}
+.sofa :hover h4{
+    
+    color: rgb(255, 0, 76);
+}
+.sofa1{
+    width: 500px;
+    height: 375px;
+    display: grid;
+    grid-template-columns: 35% 10%;
+       background-color: rgb(230, 255, 247);
+       padding: 10px;
+       margin-left: 80px;
+}
+.sofa1 h4{
+    margin-top: 200px;
+    color: rgb(222, 255, 244);
+    font-weight: bold;
+}
+.sofa1 a{
+    text-decoration: none;
+}
+.sofa1 :hover h4{
+    
+    color: rgb(255, 0, 76);
+}
+
+.parent3{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: center;
+    margin-top: 20px;     
+}
+.parent3 img {
+    margin-top: 100px;
+}
+
+.list1{
+    background-color: rgb(230, 255, 247);
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: 40% 50%;
+}
+.list1 img{
+    margin-top: 100px;
+    margin-right: 2px;
+}
+
+
+.one h4{
+    margin-top: 200px;
+    color: rgb(222, 255, 244);
+    font-weight: bold;
+    margin-left: 20px;
+}
+.one a{
+    text-decoration: none;
+}
+.one :hover h4{
+    
+    color: rgb(255, 0, 76);
+}
+.list1 p{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.list1 h2{
+    margin-left: 20px;
+}
+.list2{
+    background-color: rgb(230, 255, 247);
+    width: 650px;
+    height: 350px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 70px;
+    display: grid;
+    
+    
+}
+.list2 img{
+    margin-left: 200px;
+    margin-bottom: 500px;
+      
+}
+.list2 p{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.list2 h2{
+    margin-left: 20px;
+    
+}
+
+
+.onetwo{
+    display: grid;
+    grid-template-columns: 40% 50%;
+}
+
+.two h4{
+    margin-top: 200px;
+    color: rgb(222, 255, 244);
+    font-weight: bold;
+    margin-left: 20px;
+}
+.two a{
+    text-decoration: none;
+}
+.two :hover h4{
+    
+    color: rgb(255, 0, 76);
+}

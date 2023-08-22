@@ -1,0 +1,18 @@
+p{
+    color:green;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-align: justify;
+    text-decoration: underline;
+    text-shadow: 1px 2px 4px(green);
+    text-transform: capitalize;
+    white-space: nowrap;
+    width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}

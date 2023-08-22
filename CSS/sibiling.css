@@ -1,0 +1,8 @@
+.brother+small{color:blue}
+div~small{color:aquamarine}
+button{
+    border: 1px solid green;
+    width: 100px;
+    border-radius:5px;
+    Box-shadow: 2px 2px 2px blue;
+}

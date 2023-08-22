@@ -1,0 +1,26 @@
+.parent{color:rgb(87, 181, 87);
+    border: 2px solid darkblue;
+    width:50vh;
+    border-radius: 10px;
+    box-shadow: 10px 20px 5px blueviolet;
+    margin: 40px;
+    padding: 20px;
+    font-size: medium;
+
+    
+
+
+}
+.parent p{color:rgb(42, 165, 184)}
+.parent del{color:black}
+.parent p::first-letter{color: red;
+    
+}
+.parent p::before{content:"&&"}
+.parent p::after{content:"horliks very boost level"}
+
+
+   
+
+
+

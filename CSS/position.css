@@ -1,0 +1,40 @@
+.name h1{
+    position: fixed;
+    background-color: greenyellow;
+    color: white;
+    width: 100%;
+    top:0;
+}
+ p{
+    margin-top: 100px;
+}
+#sticky{
+    position:sticky;
+    color: white;
+    background-color: yellow;
+    top:0;
+    z-index: 999;
+}
+#name{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: greenyellow;
+    padding:10px;
+    border-radius: 20px;
+}
+#his{
+    position: relative;
+    width: 200px;
+}
+
+#his img{
+    width: 100%;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+#his buttonS{
+    position: absolute;
+    top: 0;
+    right: 0;
+}

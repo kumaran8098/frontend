@@ -1,0 +1,74 @@
+.amen{
+    display: grid;
+    grid-template-columns: 40% 45% 15%;
+    background-color: black;
+    color:white ;
+    position: fixed;
+    width: 100%;
+    top:0;
+    align-items: center;
+}
+#u button{
+    color: white;
+    background-color:orange;
+    padding: 15px;
+    border-radius: 5px;
+}
+#k h1{
+    color: orange;
+    margin-left: 30px;
+
+}
+#m a{
+    padding: 15px;   
+}
+#a{
+    color: orange;
+}
+#m a:hover{ 
+    color: orange;
+}
+.r img{
+    width:1300px;
+    margin-top: 60px;
+    position: relative;
+    height: 600px;
+}
+.r img{
+    width: 100%;
+}
+#men img{
+    width: 500px;   
+}
+.one{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color:rgba(13, 8, 8, 0.453);
+    padding: 50px;
+    
+
+}
+#para h1{
+    font-size: 80px;
+    color:white;
+}
+#para p{
+    color: aliceblue;
+}
+#button {
+    background-color: orange;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.r img{
+    position: relative;
+}
+.one{
+    position: absolute;
+    top:70px;   
+}
+
+
+
