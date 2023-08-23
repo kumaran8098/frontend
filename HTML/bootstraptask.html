@@ -1,53 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../CSS/bootstraptask.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../CSS/bootstraptask.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    
 </head>
 <body>
- 
 
-  <div class="row">
-  <div class=" col-lg-4"><h1>TECHIE</h1></div>
-        
-  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-    
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Disabled</button>
-    </li>
-  </ul>
-    
-     
-  </div>
-  </nav>
+  <!--navbar-->
+
+  <div class="container-fluid  p-3 bg-primary position-fixed  fin ">
+    <nav class="navbar navbar-expand-lg  " id="navbar">
+      <div><h1 class="col-lg-2 ms-5 text-white">TECHIE</h1></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+      </button>
+
+      <div class="collapse navbar-collapse col-lg-8 " id="menu">  
+        <ul class="navbar-nav ms-auto mb-0 ">
+        <li class="nav-item">
+          <a class="nav-link active text-white" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Team</a>
+        </li>
+        <li class="nav-item Drop Down">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Drop Down
+          </a>
+          <ul class="dropdown-menu text-white">
+            <li><a class="dropdown-item" href="#">Drop Down1</a></li>
+            <li><a class="dropdown-item" href="#"> Deep Drop Down</a></li>
+            <li><a class="dropdown-item" href="#">Drop Down2</a></li>
+            <li><a class="dropdown-item" href="#">Drop Down3</a></li>
+            <li><a class="dropdown-item" href="#">Drop Down3</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">contact</a>
+        </li>
+        </ul>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      </div>
+      <button class="col-lg-1 ms-5 p-2 bg-primary text-white border-white me-5 rounded-3">Get Started</button>
       
+    </nav>
+  </div>
+  
+
+  <!--navbar ending-->
+  
+  
+
+
+  <div><img class="img" src="../IMAGES/hero-bg1.jpg"></div>
 </body>
-</html>
+</html

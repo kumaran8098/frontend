@@ -1,0 +1,15 @@
+li{
+    padding: 5px;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    
+  border-bottom: 2px solid white;
+  transition: .5s;
+}
+
+.img{
+  width: 1300px;
+  height:500px;
+}
